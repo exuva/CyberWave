@@ -1,0 +1,157 @@
+<html>
+
+<head>
+    <title>Rejoindre l'équipe</title>
+    <meta name="description" content="Vacances d'été">
+    <link rel="icon" type="image/Cyberpunk_2077_favicon.png" href="image/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://fonts.googleapis.com/css2?family=Advent+Pro:wght@200;300;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- navbar -->
+    <div class="nav">
+        <div class="nav_item">
+            <div class="nav_item_home">
+                <a href="home.html">
+                    <img src="image/home.svg" alt="home" class="icontop">
+                    <p class="navp">Home</p>
+                </a>
+            </div>
+
+            <div class="nav_item_lore">
+                <a href="Lore.html" class="nav_mainicon">
+                    <img src="image/book.svg" alt="book" class="nav_mainicon">
+                    <p class="navp">Lore</p>
+                </a>
+            </div>
+
+            <div class="nav_item_team">
+                <a href="jointeam.html">
+                    <img src="image/jointeam.svg" alt="jointeam" class="nav_mainicon">
+                    <p class="navp">Join</p>
+                </a>
+            </div>
+            <div class="nav_item_lore">
+                <a href="Night_City.html">
+                    <img src="image/map.svg" alt="map" class="nav_mainicon">
+                    <p class="navp">Map</p>
+                </a>
+            </div>
+
+        </div>
+        <div class="nav_item_bot">
+            <a href="login.html" class="cyberpunk">
+                <img class="iconbot" src="image/avatar.svg"></img>
+            </a>
+        </div>
+
+    </div>
+
+    <div class="main">
+        <section class="cyberpunk">
+            <h1 class="cyberpunk">
+                Rejoindre l'équipe
+            </h1>
+            <p><i>Les champs marqués<b style="color: red;">*</b> doivent être obligatoirement renseignés</p></i>
+        </section>
+
+        <section class="cyberpunk black">
+            <table class="formulaire">
+                <form action="reponseexoinput.html">
+                    <tr>
+                        <td>
+                            <h2 class="cyberpunk glitched">Prénom&nbsp;<b style="color: red;">*</b>
+                            </h2>
+                            <input type="text" class="cyberpunk" name="name" id="name" placeholder="Barak" required="required">
+                        </td>
+                        <td>
+                            <h2 class="cyberpunk glitched">Nom&nbsp;<b style="color: red;">*</b>
+                            </h2>
+                            <input type="text" class="cyberpunk" name="name" id="name" placeholder="Obama" required="required">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h2 class="cyberpunk">E-Mail&nbsp;<b style="color: red;">*</b>
+                            </h2>
+
+                            <input type="text" class="cyberpunk" placeholder="youremail@server.com" required="required">
+                            </input>
+                            </b>
+                        </td>
+                        <td width="500">
+                            <h2 class="cyberpunk">Sexe&nbsp;<b style="color: red;">*</b></h2>
+                            <select class="cyberpunk black" >
+
+                                <option>Homme</option>
+                                <option>Femme</option>
+                                <option>Cybertruck</option>
+                                <option>Cyborg</option>
+                                <option>Hélicoptère Apache</option>
+                                <option>Non binaire</option>
+                                <option>Non tertiaire</option>
+                                <option>vélib</option>
+                            </select>
+
+                        </td>
+                    </tr>
+            </table>
+        </section>
+
+        <section class="cyberpunk"></section>
+
+
+        <section class="cyberpunk black">
+            <h2 class="cyberpunk">Pour quel poste postulez vous?</h2>
+            <table class="formulairecondi">
+                <tr>
+                    <th rowspan="2" height="200" width="400">Choisir deux options maximum
+                    <td class="item"><input type="checkbox" name="solo" class="cyberpunk"></td>
+                    <td>Développeur WEB</td>
+                    <td class="item"><input type="checkbox" name="kid" class="cyberpunk"></td>
+                    <td>Gérant communication</td>
+                <tr>
+                    <td class="item"><input type="checkbox" name="solo" class="cyberpunk"></td>
+                    <td>Datamanager</td>
+                    <td class="item"><input type="checkbox" name="kid" class="cyberpunk"></td>
+                    <td>Responsable logistique</td>
+            </table>
+        </section>
+
+        <section class="cyberpunk"></section>
+
+        <section class="cyberpunk black">
+            <h2 class="cyberpunk">Veuillez noter vos demandes complémentaires ci-après</h2>
+            <textarea name="description" id="descr" cols="60" rows="10" class="cyberpunk"></textarea>
+        </section>
+
+
+
+        <section class="cyberpunk">
+            <div class="center">
+                <table class="cyberpunk" style="width: 1000px;">
+                    <tr>
+                        <td style="width: 20%;"><b>J'occupe actuellement un poste</b>
+                        <td style="width: 40%;"><input type="radio" name="hotel" class="cyberpunk">Oui
+                        <td style="width: 40%;"><input type="radio" name="hotel" class="cyberpunk">Non
+                </table>
+            </div>
+        </section>
+
+        <section class="cyberpunk black">
+            <h3 class="cyberpunk glitched">La documentation vous est adressé par retour. Merci de votre visite</h3>
+            <div class="center">
+                <button type="submit" value="Envoyer" name="submitsend"
+                    class="cyberpunk2077 green">Envoyer_</button><button type="reset" value="Effacer" name="clear"
+                    class="cyberpunk2077 red">Effacer_-</button>
+                </form>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
